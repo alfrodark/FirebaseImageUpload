@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseImageUpload</string>
+    <string name="select_image">Select Image</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="firebase_cloud_storage">Firebase Cloud Storage Example</string>
+    <string name="open_upload_page">Open Upload Page</string>
+</resources>

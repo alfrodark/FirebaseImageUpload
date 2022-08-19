@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "757205966006",
+    "project_id": "kotlinfirebase-ec967",
+    "storage_bucket": "kotlinfirebase-ec967.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757205966006:android:eda56688757cdf95131a17",
+        "android_client_info": {
+          "package_name": "com.alfrosoft.firebaseimageupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757205966006-tav42g3foohpne6qkikjqhgsfm2kok8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATc8rwmlh4W3-hpi1-hsuAVibsM4Vwf6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757205966006-tav42g3foohpne6qkikjqhgsfm2kok8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757205966006:android:469359a1e3d2a458131a17",
+        "android_client_info": {
+          "package_name": "com.alfrosoft.firebaseretrieveimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757205966006-tav42g3foohpne6qkikjqhgsfm2kok8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATc8rwmlh4W3-hpi1-hsuAVibsM4Vwf6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757205966006-tav42g3foohpne6qkikjqhgsfm2kok8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

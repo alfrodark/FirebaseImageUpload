@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/firebase_cloud_storage"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginVertical="30dp"
+            android:background="#604E4E"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="32sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_bg"
+            android:text="@string/select_image" />
+
+        <Button
+            android:id="@+id/uploadImageBtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_bg"
+            android:text="@string/upload_image" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
